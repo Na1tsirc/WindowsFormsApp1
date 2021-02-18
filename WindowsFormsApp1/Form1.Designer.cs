@@ -36,8 +36,10 @@ namespace WindowsFormsApp1
             // 
             this.userControl11.Location = new System.Drawing.Point(-1, 0);
             this.userControl11.Name = "userControl11";
+            this.userControl11.PropiedadCreada = null;
             this.userControl11.Size = new System.Drawing.Size(397, 449);
             this.userControl11.TabIndex = 0;
+            this.userControl11.Load += new System.EventHandler(this.userControl11_Load);
             // 
             // Form1
             // 
